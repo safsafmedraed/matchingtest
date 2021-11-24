@@ -34,7 +34,7 @@ p strong {
   gap: 10px;
 }
 
-.pokemon-card {
+.board-card {
   height: 150px;
   width: 150px;
   border-radius: 2px;
@@ -45,7 +45,7 @@ p strong {
   outline: none;
 }
 
-.pokemon-card.flipped .inner {
+.board-card.flipped .inner {
   transform: rotateY(180deg);
 }
 
@@ -57,8 +57,8 @@ p strong {
   transition: 0.6s cubic-bezier(0.38, 0.02, 0.09, 1.66) all;
 }
 
-.pokemon-card .front,
-.pokemon-card .back {
+.board-card .front,
+.board-card .back {
  
   align-items: center;
   justify-content: center;
@@ -71,19 +71,19 @@ p strong {
   backface-visibility: hidden;
 }
 
-.pokemon-card .front {
+.board-card .front {
   background: #fff;
   transform: rotateY(180deg);
 }
 
-.pokemon-card .back {
+.board-card .back {
   background: #51dce0;
   color: #d6aeb5;
   font-size: 100px;
   transition: 0.3s ease all;
 }
 
-.pokemon-card .back:hover {
+.board-card .back:hover {
   background: #dba8b1;
   color: #fff;
   transform: scale(1.02);
