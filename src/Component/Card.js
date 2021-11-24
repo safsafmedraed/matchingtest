@@ -1,6 +1,4 @@
-import { useEffect } from 'react'
 import Shape from './Shape'
-
 
 
 const Card =({Shapes})=> {
