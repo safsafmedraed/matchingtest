@@ -1,7 +1,8 @@
 {
   "name": "matchingtest",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "this is a technical test for shipzzer tunisia made with Create-react-app",
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
