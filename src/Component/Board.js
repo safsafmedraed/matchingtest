@@ -25,7 +25,7 @@ const Board = () => {
     const [hide, setHide] = useState(true)
     const [winner, setWinner] = useState(0)
     const [timeWin, setTimeWin] = useState(0)
-
+// eslint-disable-next-line
     const [pairOfshapes, setCards] = useState(() =>
     shuffleCards(Shapes.concat(Shapes))
   );
@@ -47,6 +47,7 @@ const Board = () => {
 
         if (openedCard.length === 2) setTimeout(() => setOpenedCard([]), 800);
         setTimeWin(seconds)
+        // eslint-disable-next-line
     }, [openedCard]);
 
 
